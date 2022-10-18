@@ -21,13 +21,11 @@ const Contenedor = styled.section`
   background: #000;
   height: 100px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 
-  p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    
-  }
+  
 
 `;
