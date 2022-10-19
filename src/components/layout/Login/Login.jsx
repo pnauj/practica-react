@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import styled from "styled-components";
 
 const Login = () => {
@@ -19,10 +18,9 @@ const Login = () => {
               <label htmlFor="password">Password</label>
               <input type="password" placeholder="Ingrese su contraseña" />
             </div>
-
-            <button type="submit" btn btn-primary>
+            <Button type="submit" btn btn-primary>
               Enviar
-            </button>
+            </Button>
           </form>
         </div>
       </Contenedor>
@@ -34,8 +32,8 @@ export default Login;
 
 const Contenedor = styled.section`
   width: 500px;
-  height: 100px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  top: 300px;
+  border: 1px solid green;
 `;

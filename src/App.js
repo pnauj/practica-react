@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navb />
+        <Navb className="" />
         <main>
           <Routes>
             <Route exacth path="/login" element={<Login />} />
